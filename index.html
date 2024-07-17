@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hit the Goal</title>
+<link rel="stylesheet" href="style.css">
+<script src="fabric.js"></script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<body class="body_background" onload="load_img()">
+	<center>
+		<h3 id="hd3" class="btn-primary">Hit the Goal</h3>
+		<p>Balls in hole: <span id="ballsInHole">0</span></p>
+		<div>
+		<canvas width="1100" height="500" id="myCanvas"></canvas>
+</div>
+		<div id="meh" class="btn btn-sm btn-success rounded-circle">
+		<h4 >Click any arrow key to move. (up, down, left and right)!</h4>
+		<h5>Keep the ball in the bottom of the hole wait 2-3 seconds without moving!</h5>
+	
+	
+	</div>
+		<audio id="wooSound">
+			<source src="https://upload.wikimedia.org/wikipedia/commons/0/09/Applause_ii.ogg" type="audio/ogg">
+			Your browser does not support the audio element.
+		</audio>
+
+		<img id="Back"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwbse_xL3ZpIWh7CBjCXIN6Ji37hpNchW3zg&s">
+
+	</center>
+	<script src="main.js"></script>
+</body>
+</html>
